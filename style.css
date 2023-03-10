@@ -1,0 +1,137 @@
+
+.space{
+    position: fixed;
+    line-height: 8px;
+    justify-content: baseline;
+    top : 15px;
+    left: 95px;
+    
+    align-items: center;
+}
+img{
+    border-top: 1px;
+    cursor: pointer;
+}
+input{
+    position: fixed;
+    display : flex;
+    top: 35px;
+    right : 50%;
+    width: 400px;
+    height: 35px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.signIn{
+    position: relative;
+    float: right;
+    bottom : 55px; 
+    right: 75px;
+    text-decoration: none;
+    color: blue;    
+   
+    
+    
+}
+.signUp{
+    position: relative;
+    float: right;
+    bottom : 55px;
+    right: 105px;
+    text-decoration: none;
+    color: blue;
+}
+.signUp :hover{
+    text-decoration: underline;
+}
+.signIn :hover{
+    text-decoration: underline;
+}
+
+.container{
+    padding-top:55px;
+    text-align: center;
+    white-space:nowrap;
+}
+li{
+    display: inline-block;
+    
+    justify-content: space-between;
+    padding:0 30px;
+    color: blue;
+    word-spacing: -2px;
+    
+    
+}
+.left{
+    justify-content: space-between;
+    float: left;
+    text-decoration: none;
+    left: 50px;
+    
+}
+.right{
+    text-decoration: none;
+    right: 35px;
+}
+li :hover{
+    text-decoration: underline;
+    
+}
+.leftside{
+    width: 900px;
+    margin-left: 365px;
+    
+}
+   
+   
+.leftside a{
+    text-decoration: none;
+    color:rebeccapurple;
+}
+
+.h3{
+
+    height: 20px;
+    padding-left: 350px;
+    
+}
+.image{
+    float: right;
+    width: 220px;
+    height: 320px;
+    padding: 0 10px 0 10px;
+}
+.image2{
+    padding: 0  5px 5px ;
+    float: left;
+    width: 190px;
+    height: 300px;
+    border: 1px solid fff;
+}
+.image3{
+    padding: 0  5px 5px ;
+    float: right;
+    width: 190px;
+    height: 300px;
+    border: 1px solid fff;
+}
+.image4,.image5{
+    padding-right:5px ;
+    margin-right: 5px;
+    float: left;
+    width: 140px;
+    height: 300px;
+    border: 1px solid fff;
+}
+.links a{
+    margin-left: 50px;
+    display: block;
+    height:auto;  
+} 
+.h3 a{
+    color: black;
+    text-decoration: underline;
+    cursor: default;
+}
